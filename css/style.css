@@ -1,0 +1,41 @@
+html {
+    background: url("../owlwallpaper.jpg") no-repeat center fixed;
+    background-size: cover;
+}
+
+* {
+    font-size:25px;
+    font-family: 'Schoolbell', cursive;
+    color: rgb(251, 181, 85);
+}
+
+#test_status {
+    font-size: 35px;
+    font-family: 'Charmonman', cursive;
+    color: rgb(128, 176, 0);
+    padding: 0 80px;
+}
+
+div#test {		
+    padding: 10px 40px 40px 100px;
+}
+
+button {
+    background-color:rgb(128, 176, 0);
+    color: rgb(13, 54, 96);
+    border: 1px solid rgb(128, 176, 0);
+    border-radius:10px;
+    margin: 20px;
+    padding: 5px;
+    outline: 0;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    }
+
+button:hover {
+    transform: scale(1.1);
+}
+
+#questions {
+    color: rgb(250, 56, 95);
+}
